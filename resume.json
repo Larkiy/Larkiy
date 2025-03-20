@@ -1,1 +1,126 @@
-{"titleNameMap":{"educationList":"教育背景","workExpList":"工作经历","projectList":"项目经历","skillList":"个人技能","awardList":"更多信息","workList":"个人作品","aboutme":"自我介绍"},"avatar":{"hidden":false},"profile":{"name":"汪辉","email":"whui9242@gmail.com","mobile":"18855099242","github":"","zhihu":"","workExpYear":"2.5年","workPlace":"","positionTitle":"后端工程师"},"educationList":[{"edu_time":["2020.09.01","2023.06.30"],"school":"安徽理工大学","major":"软件工程（硕士）"},{"edu_time":["2016.09.01","2020.06.30"],"school":"滁州学院","major":"计算机科学与技术（本科）"}],"awardList":[],"workExpList":[{"company_name":"江苏中新赛克工业互联网安全技术创新中心","department_name":"安全技术中心","work_time":["2022.11",""],"work_desc":"担任安全研发工程师，设计和研发企业级安全软件。","dataIndex":0}],"skillList":[{"skill_name":"Go","skill_level":null,"skill_desc":"熟练掌握 Golang语言， 熟悉 Linux 操作系统的开发环境。掌握常用框架，如 GIN，GRPC，Gorm以及GoFrame 等，了解框架提供特性；建立团队代码审查规范，推动单元测试覆盖率；具有性能调优经验，通过pprof逃逸分析重构核心数据结构，优化堆内存分配；通过火焰图分析，定位解决协程泄露导致的OOM问题。","dataIndex":0},{"skill_name":"python","skill_level":null,"skill_desc":"掌握Python语言及其生态，熟练掌握Django、Flask等主流框架，具备高并发场景下的性能调优经验，包括异步编程、缓存优化与内存管理。","dataIndex":1},{"skill_name":"数据结构","skill_level":null,"skill_desc":"深度掌握数据结构与算法（LeetCode 500+实战），熟练运用工厂、观察者等设计模式进行系统架构设计，主导遵循Git Flow的敏捷开发流程。​","dataIndex":2},{"skill_name":"Python","skill_level":null,"skill_desc":"了解大模型原理，熟悉模型应用开发框架以及开发平台，如Ollama，Dify，RAGFlow、langchain等。对RAG知识库建设有实际落地经验。","dataIndex":3},{"skill_name":"容器化","skill_level":null,"skill_desc":"熟悉容器化技术，完成基于GitLab+ArgoCD云原生交付流水线搭建，实现镜像构建-安全扫描-金丝雀发布全自动化。","dataIndex":4},{"skill_name":"中间件","skill_level":null,"skill_desc":"熟悉MySQL、PostgreSQL关系型数据库的调优与事务处理，熟悉Redis、MongoDB等NoSQL数据库的高并发场景应用，掌握Kafka、RabbitMQ等消息中间件的架构设计与性能优化，具备亿级数据处理与高可用系统构建经验。​","dataIndex":5}],"projectList":[{"project_name":"企业级安全智能体系统开发","project_role":"平台技术负责人","project_time":"2024.12 - 至今","project_desc":"面对APT攻击、0day漏洞等新型安全威胁，传统规则引擎误报率高且响应滞后。项目旨在构建AI驱动的自动化安全决策中枢，实现从威胁感知、智能研判到动态防御的全链路升级。","project_content":"\n1. 基于Dify构建智能体工作流引擎，实现安全事件分析、策略生成、自动化响应全链路AI化。\n2. 采用LightRAG搭建动态知识中枢，整合20+安全知识源构建百万级威胁情报图谱，支持语义增强检索。\n3. 设计混合推理架构，结合规则引擎与RAG技术，实现安全策略生成准确率提升","dataIndex":0},{"project_name":"多模态数据安全防御中台","project_role":"后端负责人","project_time":"2024.2 - 2024.11 ","project_desc":"实时流量下的智能窃密行为识别系统，针对图片、音频、无人机及车辆基站信息等异构数据流，构建动态防御体系，实现毫秒级响应与高精度异常识别。","project_content":"\n1. 基于 ​Django REST Framework 设计分布式微服务，采用 ​Gunicorn + Nginx 横向扩展，单节点 QPS 达 1200。\n2. 引入 ​Celery + Redis 异步任务队列，解耦数据预处理（图片降噪/音频分帧）与核心检测逻辑。\n3. 开发 ​MinIO + PostgreSQL 混合存储方案，针对图片/音频等非结构化数据，实现分片上传与元数据关联检索。","dataIndex":1},{"project_time":"2022.11 - 2024.02","project_name":"终端检测与响应（EDR）","project_role":"安全开发工程师","project_desc":"专注于保护终端设备（Windows 计算机、服务器）免受网络威胁； 通过实时监控、检测和响应终端设备上的恶意活动快速识别和应对安全威胁。入选2023未来网络领先创新科技成果。产品地址：https://salaxy.s-iis.com/edrPlatform","project_content":"\n1. 开发设计自动化响应工作流，支持进程终止、文件隔离、防火墙封禁等 ​15+ 处置动作.\n2. 开发勒索软件专项防护模块，通过文件操作预审机制与诱饵文件陷阱网络拦截加密攻击；实现系统配置自修复功能，自动还原被篡改的组策略、服务启动项等高危项。\n3. 开发终端管理平台服务端，基于Kafka+Flink 构建分布式日志管道，采用分区动态扩容策略，实现单集群日均 ​120亿条 日志吞吐，峰值 QPS 达 ​15万​。\n4. 开发Protobuf二进制压缩协议，优化终端与服务端通信效率，针对频繁查询的终端元数据设计​多级缓存架构，通过冷热数据分层存储降低Elasticsearch存储费用。","dataIndex":2}],"workList":[],"aboutme":{"aboutme_desc":"自驱型后端工程师，坚持Clean Code原则，2.5年企业复杂系统开发经验，擅长全链路问题定位，多次解决线上重大故障（如数据库死锁、缓存雪崩等）。技术栈覆盖Go/Python双语言体系，熟悉分布式架构、大模型应用及云原生技术实践。\n    "},"theme":{"color":"#2f5785","tagColor":"#8bc34a"}}
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "hidden": false
+    },
+    "profile": {
+        "name": "汪辉",
+        "email": "whui9242@gmail.com",
+        "mobile": "18855099242",
+        "github": "",
+        "zhihu": "",
+        "workExpYear": "2年",
+        "workPlace": "",
+        "positionTitle": "后端工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2020.09.01",
+                "2023.06.30"
+            ],
+            "school": "安徽理工大学",
+            "major": "软件工程（硕士）"
+        },
+        {
+            "edu_time": [
+                "2016.09.01",
+                "2020.06.30"
+            ],
+            "school": "滁州学院",
+            "major": "计算机科学与技术（本科）"
+        }
+    ],
+    "awardList": [],
+    "workExpList": [
+        {
+            "company_name": "江苏中新赛克工业互联网安全技术创新中心",
+            "department_name": "安全技术中心",
+            "work_time": [
+                "2022.11",
+                ""
+            ],
+            "work_desc": "1. 担任EDR以及XDR企业级安全软件后端开发负责人。\n2. AI安全运维研究团队核心成员，负责RAG知识库建设。",
+            "dataIndex": 0
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "Go",
+            "skill_level": null,
+            "skill_desc": "熟练掌握 Golang语言， 熟悉 Linux 操作系统的开发环境。掌握常用框架，如 GIN，GRPC，Gorm以及GoFrame 等，了解框架提供特性，建立团队代码审查规范，推动单元测试覆盖率；有过性能调优经验，通过pprof逃逸分析重构核心数据结构优化堆内存分配，通过火焰图解决协程泄露导致的OOM问题。",
+            "dataIndex": 0
+        },
+        {
+            "skill_name": "python",
+            "skill_level": null,
+            "skill_desc": "熟练掌握 Python语言。掌握常用框架，如Django，Flask等，有Python性能调优相关优经验。"
+        },
+        {
+            "skill_name": "数据结构",
+            "skill_level": null,
+            "skill_desc": "掌握常见数据结构、算法，熟悉常见设计模式，熟悉软件开发流程。",
+            "dataIndex": 1
+        },
+        {
+            "skill_name": "Python",
+            "skill_level": null,
+            "skill_desc": "了解大模型原理，熟悉模型应用开发框架以及开发平台，如Ollama，Dify，RAGFlow、langchain等。对RAG知识库建设有实际落地经验。",
+            "dataIndex": 3
+        },
+        {
+            "skill_name": "容器化",
+            "skill_level": null,
+            "skill_desc": "熟悉容器化技术，完成基于GitLab+ArgoCD云原生交付流水线搭建，实现镜像构建-安全扫描-金丝雀发布全自动化。",
+            "dataIndex": 4
+        },
+        {
+            "skill_name": "中间件",
+            "skill_level": null,
+            "skill_desc": "熟悉Redis，Nginx，PostgreSQL等的使用，熟悉Kafka，RabbitMQ等通用消息中间件的技术原理以及使用方法。",
+            "dataIndex": 5
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "企业级安全智能体系统开发",
+            "project_role": "平台技术负责人",
+            "project_time": "2024.12 - 至今",
+            "project_desc": "面对APT攻击、0day漏洞等新型安全威胁，传统规则引擎误报率高且响应滞后。项目旨在构建AI驱动的自动化安全决策中枢，实现从威胁感知、智能研判到动态防御的全链路升级。",
+            "project_content": "\n1. 基于Dify构建智能体工作流引擎，实现安全事件分析、策略生成、自动化响应全链路AI化。\n2. 采用LightRAG搭建动态知识中枢，整合20+安全知识源构建百万级威胁情报图谱，支持语义增强检索。\n3. 设计混合推理架构，结合规则引擎与RAG技术，实现安全策略生成准确率提升",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "多模态数据安全防御中台",
+            "project_role": "后端负责人",
+            "project_time": "2024.2 - 2024.11 ",
+            "project_desc": "实时流量下的智能窃密行为识别系统，针对图片、音频、无人机及车辆基站信息等异构数据流，构建动态防御体系，实现毫秒级响应与高精度异常识别。",
+            "project_content": "\n1. 基于 ​Django REST Framework 设计分布式微服务，采用 ​Gunicorn + Nginx 横向扩展，单节点 QPS 达 1200。\n2. 引入 ​Celery + Redis 异步任务队列，解耦数据预处理（图片降噪/音频分帧）与核心检测逻辑。\n3. 开发 ​MinIO + PostgreSQL 混合存储方案，针对图片/音频等非结构化数据，实现分片上传与元数据关联检索。",
+            "dataIndex": 1
+        },
+        {
+            "project_time": "2022.11 - 2024.02",
+            "project_name": "终端检测与响应（EDR）",
+            "project_role": "安全开发工程师",
+            "project_desc": "专注于保护终端设备（Windows 计算机、服务器）免受网络威胁； 通过实时监控、检测和响应终端设备上的恶意活动快速识别和应对安全威胁。入选2023未来网络领先创新科技成果。产品地址：https://salaxy.s-iis.com/edrPlatform",
+            "project_content": "\n1. 开发设计自动化响应工作流，支持进程终止、文件隔离、防火墙封禁等 ​15+ 处置动作，威胁平均遏制时间从人工处置的 ​20分钟 缩短至 ​8秒。\n2. 开发勒索软件专项防护模块，通过文件操作预审机制与诱饵文件陷阱网络，成功拦截 ​100+ 次加密攻击，客户数据零丢失。\n3. 实现系统配置自修复功能，自动还原被篡改的组策略、服务启动项等高危项。\n4. 开发终端管理平台服务端，基于Kafka+Flink 构建分布式日志管道，采用分区动态扩容策略，实现单集群日均 ​120亿条 日志吞吐，峰值 QPS 达 ​15万​。\n5. 开发Protobuf二进制压缩协议，优化终端与服务端通信效率，针对频繁查询的终端元数据设计​多级缓存架构，通过冷热数据分层存储降低Elasticsearch存储费用。",
+            "dataIndex": 2
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "自驱型后端工程师，坚持Clean Code原则，2.5年企业复杂系统开发经验，擅长全链路问题定位，多次解决线上重大故障（如数据库死锁、缓存雪崩等）。技术栈覆盖Go/Python双语言体系，熟悉分布式架构、大模型应用及云原生技术实践。\n    "
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
